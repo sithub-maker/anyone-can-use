@@ -1,0 +1,10 @@
+.result{
+    border: 1px solid #000;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    border-radius: 6px;
+}
