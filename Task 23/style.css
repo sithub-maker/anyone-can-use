@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #000000;
+    position: sticky;
+}
+
+header {
+
+    position: static;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 1px solid #727272;
+    height: 50px;
+}
+
+.container-1 {
+
+    display: flex;
+    width: 310px;
+    font-family: "Bebas Neue", sans-serif;
+    height: 40px;
+    align-items: center;
+
+
+}
+
+.logo i {
+    margin-left: 15px;
+    font-size: 35px;
+    color: #009ca1;
+    transition: 0.4000s;
+
+
+}
+
+.setting i {
+    /* margin-left: 70px;
+    margin-right: 15px; */
+    font-size: 20px;
+    color: #006266;
+    margin-left: 80px;
+    transition: 0.4000s;
+
+    &:hover {
+        font-size: 25px;
+    }
+}
+
+.about i {
+    font-size: 20px;
+    color: #006266;
+    margin-left: 10px;
+    transition: 0.4000s;
+    &:hover {
+        font-size: 25px;
+    }
+
+}
+
+.add i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #006266;
+    transition: 0.4000s;
+
+    &:hover {
+        font-size: 25px;
+    }
+
+}
+
+/* ! birinji bolum !!!!_____________ */
+
+.container-2 {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fst {
+    border-radius: 17px;
+    width: 370px;
+    margin-right: 6px;
+    height: 30px;
+    transition: 0.4000s;
+
+    &:hover {
+        background-color: #dadada;
+        border: 1px solid #12CBC4;
+    }
+
+    &:focus {
+        border: 3px solid #12CBC4;
+    }
+
+
+}
+
+.voices i {
+    font-size: 21px;
+    margin-right: 100px;
+    right: 680px;
+    text-align: center;
+    width: 40px;
+    color: #006266;
+    transition: 0.4000s;
+
+    &:hover {
+        color: #545757;
+    }
+
+
+}
+
+/* ! ikinji bolumun sony  */
+
+.options i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #006266;
+    right: 10px;
+    transition: 0.2000s;
+
+    &:hover {
+        color: #646464;
+    }
+}
+
+/* ? body bolegi yagny gowresi */
+
+.sidebar {
+    align-items: center;
+    justify-content: center;
+    height: 983px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    position: absolute;
+    top: 55px;
+    left: 7px;
+    box-shadow: 0px 3px 20px 1px black;
+    z-index: 1;
+    color: #12CBC4;
+    height: 53px;
+    background-color: rgb(115, 106, 106);
+    width: 285px;
+    border-radius: 10px;
+}
+
+ul {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 956px;
+
+
+}
+
+ul a li i {
+   
+    font-size: 43px;
+    border-radius: 50px;
+    width: 55px;
+    justify-content: center;
+    text-align: center;
+    height: 55px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #000000;
+    width: 100%;
+    border: 1px solid #000;
+    height: 60px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:#000000 ;
+}
+
+a h3 {
+    font-size: 20px;
+    color: rgb(185, 184, 184);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+footer {
+    border: 1px solid #000;
+    background-color: #4c5d6d;
+    position: sticky;
+    padding: 15px 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+   
+    border-radius: 0px 11px 0px 0px;
+}
